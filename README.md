@@ -1,4 +1,6 @@
 # DevopsModul
 
 ## Durchschnittsalter pro Anfangsbuchstabe
-![image](https://github.com/user-attachments/assets/6b5948a3-16d1-4b86-ae0b-01e2f44df642)
+	• Berechnen Sie das Durchschnittsalter der Personen für jeden Anfangsbuchstaben ihrer Namen.
+Ergebnis: Liste im Format ["A: 17.5 Jahre", "B: 18.1 Jahre"]
+
