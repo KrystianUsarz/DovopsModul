@@ -1,16 +1,14 @@
 const fs = require('fs'); // importieren von fs ermöglicht Zugriff auf Dateisysthem um Dateien zu lesen und bearbeiten
 
-const data = fs.readFileSync('data.json', 'utf8'); // einlesen des files
+const data = fs.readFileSync('data.json', 'utf8');
 
-// Parsen des JSON-Inhalts
 const persons = JSON.parse(data);
 
-// Funktion zur Berechnung des Durchschnittsalters pro Anfangsbuchstaben
-const averageAgeByInitial = (persons) => {
+const calculateAverageAgeByInitial = (persons) => {
     const initials = {};
 
     persons.forEach(person => {
-        const initial = person.name.charAt(0).toUpperCase(); //Auswählen des Anfangsbuchstaben, to upper case, damit es egal ist wie es abgespeichert ist.
+        const initial = person.name.charAt(0).toUpperCase(); //Auswählen des Anfangsbuchstaben, to upper case, damit es egal ist wie es eingegeben ist.
 
         if (!initials[initial]) { // beim ersten mal neuer eintrag, sonst total age addieren
             initials[initial] = { totalAge: 0, count: 0 }; 
@@ -28,5 +26,4 @@ const averageAgeByInitial = (persons) => {
     return result;
 };
 
-// Ausgabe des Ergebnisses
-console.log(averageAgeByInitial(persons));
+console.log(calculateAverageAgeByInitial(persons));
