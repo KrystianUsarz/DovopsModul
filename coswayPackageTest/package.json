@@ -1,0 +1,16 @@
+{
+  "name": "coswaypackagetest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "cowsay": "^1.6.0",
+    "express": "^4.21.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

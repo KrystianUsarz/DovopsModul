@@ -1,0 +1,3 @@
+npm intit       (-y, damit man die bestätigung skippt)
+npm i cowsay    (download cowsay)
+npm i express   (download express to host it as a website)
