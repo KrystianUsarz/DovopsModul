@@ -1,0 +1,34 @@
+npm init
+
+npm i random-words
+
+npm i chalk
+
+(ältere version von chulk ins package.json/ npm init)
+npm install -g npm-check-updates (sonst geht ncu nicht im powershell wenn nicht global)
+
+npm i ncu
+
+npm i ncu -u
+
+npm install eslint@3.12.1
+
+npm install babel-eslint@10.1.0
+
+npm uninstall babel-eslint@10.1.0
+
+(add lint command in package.json)
+npm run lint
+
+npm i prettier
+
+(add prettier --write command)
+npm run format
+
+(add prettier --check command)
+npm run format-check
+
+npm install mocha
+
+(add test command)
+npm run test
