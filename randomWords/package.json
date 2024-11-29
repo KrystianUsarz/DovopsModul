@@ -1,0 +1,33 @@
+{
+  "name": "randomwords",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format-check": "prettier --check .",
+    "test": "mocha ."
+  },
+  "author": "Krystian",
+  "license": "ISC",
+  "description": "random words",
+  "type": "module",
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "chalk": "^5.3.0",
+    "mocha": "^10.8.2",
+    "ncu": "^0.2.1",
+    "npm-check-updates": "^17.1.11",
+    "prettier": "^3.4.1",
+    "random-words": "^2.0.1"
+  },
+  "keywords": [
+    "start"
+  ],
+  "devDependencies": {
+    "eslint": "^9.15.0",
+    "eslint-plugin-react": "^7.37.2",
+    "globals": "^15.12.0"
+  }
+}
